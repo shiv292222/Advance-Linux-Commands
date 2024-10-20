@@ -1,0 +1,203 @@
+ sudo useradd -a user-1
+  579  sudo useradd -m user-1
+  580  sudo adduser -a user-1
+  581  sudo adduser -a user-2
+  582  sudo /etc/group
+  583  cat /etc/group
+  584  sudo useradd -m user-3
+  585  sudo home
+  586  cd home
+  587  ls
+  588  su user-3
+  589  sf
+  590  sdf
+  591  sudo passwd user-3
+  592  cat /etc/grou
+  593  cat /etc/passwd
+  594  ls -l
+  595  ls -a
+  596  ls -ltr
+  597  ls -la
+  598  cd shivarora29
+  599  ls
+  600  pws
+  601  pwd
+  602  ls -l
+  603  mkdir devops
+  604  ls -l
+  605  cd devops
+  606  ls -l
+  607  ls
+  608  mkdir hello
+  609  ls -l
+  610  ls
+  611  ls -l
+  612  touch hello.txt
+  613  ls
+  614  touch joker
+  615  ls
+  616  ls -l
+  617  sudo chmod 665 hello.txt
+  618  ls -l
+  619  sudo chmod 660 hello.txt
+  620  ls -l
+  621  sudo chown kaleen-bhaiya hello.txt
+  622  ls -l
+  623  sudo apt-get upgrade
+  624  sudo apt-get install ngnix
+  625  sudo apt update
+  626  sudo apt-get install ngnix
+  627  sudo apt-get install nginx
+  628  sudo apt purge nginx
+  629  systemctl status nginx
+  630  sudo apt purge nginx
+  631  systemctl status nginx
+  632  clear
+  633  sudo apt purge nginx
+  634  sudo apt-get install nginx
+  635  sudo apt purge nginx
+  636  systemctl status nginx
+  637  clear
+  638  sudo systemctl stop nginx
+  639  sudo systemctl status nginx
+  640  sudo apt-get purge nginx
+  641  ls -l
+  642  vim hello.txt
+  643  grep junoon
+  644  grep junoon -r /home/shivarora29/
+  645  grep Junoon -r /home/shivarora29/
+  646  grep hello -r /home/shivarora29/
+  647  clear
+  648  sudo su
+  649  cd /
+  650  cd root
+  651  cd home
+  652  cd shivarora29@
+  653  cd shivarora29
+  654  ped
+  655  pwd
+  656  useradd kaleen
+  657  sudo useradd kaleen
+  658  sudo useradd -m  kaleen
+  659  sudo useradd -m  kaleen-bhaiya
+  660  cd /home
+  661  ls
+  662  sudo passwd kaleen-bhaiya
+  663  whoami
+  664  su kaleen-bhaiya
+  665  cd devops
+  666  grep junoon -r /home/shivarora29
+  667  grep JUNOON -r /home/shivarora29
+  668  grep junoon -ir /home/shivarora29
+  669  grep nginx -ir /
+  670  clear
+  671  grep nginx -ir /
+  672  clear
+  673  sudo grep nginx -ir /
+  674  c;ear
+  675  clear
+  676  history
+  677  sudo apt update
+  678  sudo apt-get install http
+  679  sudo apt-get install https
+  680  sudo apt-get install httpd
+  681  systemctl status httpd
+  682  systemctl status http
+  683  sudo apt-get install apache2
+  684  apache2 --version
+  685  cleae
+  686  clear
+  687  sudo apt-get purge apache2
+  688  cleat
+  689  clear
+  690  grep junoon -r /home/ubuntu
+  691  sudo grep junoon -r /home/ubuntu
+  692  sudo grep junoon -r /home/shivarora29
+  693  sudo grep junoon -ir /home/shivarora29
+  694  grep junoon -ir /home/shivarora29
+  695  grep junoon -r /home/shivarora29
+  696  cd devops
+  697  mkdir logs
+  698  cd logs
+  699  vim Zookeeper_2k.log
+  700  sudo chmod Zookeeper_2k.log 777
+  701  sudo chmod 777  Zookeeper_2k.log
+  702  ls -l
+  703  cat Zookeeper_2k.log
+  704  clear
+  705  grep warn -ir Zookeeper_2k.log
+  706  clear
+  707  grep warn -ir Zookeeper_2k.log > warnings_only_logs.log
+  708  cat warnings_only_logs.log
+  709  clear
+  710  ls -l
+  711*
+  712  clear
+  713  awk '/WARN/ {print $1} Zookeeper_2k.log
+
+  714  awk '/WARN/ {print $1}' Zookeeper_2k.log
+  715  clear
+  716  awk '/INFO/ {print $1$2$5}' Zookeeper_2k.log
+  717  awk '/INFO/ {print $1 $ 2$5}' Zookeeper_2k.log
+  718  awk '/INFO/ {print $1 $2 $5}' Zookeeper_2k.log
+  719  awk '/INFO/ {print $5}' Zookeeper_2k.log
+  720  clear
+  721  awk '/WARN/ {print $5 $6}' Zookeeper_2k.log
+  722  clear
+  723  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log
+  724  clear
+  725  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log
+  726  clear
+  727  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log | grep QuorumCnxManager
+  728  clear
+  729  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log | grep QuorumCnxManage
+  730  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log | grep QuorumCnxManageclear
+  731  clear
+  732  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log | grep QuorumCnxManagec
+  733  awk '/WARN/ {print NR $5 $6}' Zookeeper_2k.log | grep QuorumCnxManage
+  734  clear
+  735  awk '/WARN/ {print NR $1 $5 $6}' Zookeeper_2k.log
+  736  awk '/WARN/ {print NR $" " $1 $5 $6}' Zookeeper_2k.log
+  737  awk '/WARN/ {print NR " " $1 $5 $6}' Zookeeper_2k.log
+  738  clear
+  739  awk '/WARN/ {print NR " " $1 $5 $6}' Zookeeper_2k.log
+  740  c;ear
+  741  clear
+  742  awk '/WARN/ {print NR " " $1 $5 $6}' Zookeeper_2k.log
+  743  cat Zookeeper_2k.log
+  744  awk '/WARN/ {print NR " " $1 $2 }' Zookeeper_2k.log
+  745  awk '/WARN/ {print NR " " $1 " " $2 }' Zookeeper_2k.log
+  746  clear
+  747  awk 'NR>=1 && NR<=10 && /WARN/ {print NR " " $1 " " $2 $5 $6 }' Zookeeper_2k.log
+  748  clear
+  749  awk '/WARN/' Zookeeper_2k.log
+  750  clear
+  751  grep warn -ir Zookeeper_2k.log
+  752  clear
+  753  vim passwords.txt
+  754  cat passwords.txt
+  755  how to do that
+  756  sed -i 's/test123/***/g' passwords.txt
+  757  cat passwords.txt
+  758  sed -i 's/passworfpassword/g' passwords.txt
+  759  sed -i 's/passworf/password/g' passwords.txt
+  760  cat passwords.txt
+  761  vim  passwords.txt
+  762  sed 's/test123/lol/g' passwords.txt
+  763  cat passwords.txt
+  764  sed -i 's/test123/lol/g' passwords.txt
+  765  cat passwords.txt
+  766  clear
+  767  cd ..
+  768  find . -name *.log
+  769  clear
+  770  cd devops
+  771  find . -name *.log
+  772  cd ..
+  773  find shivarora29/ -name *.txt | grep -ir junoon
+  774  find  -name *.txt | grep -ir junoon
+  775  find . -name *.txt | grep -ir junoon
+  776  cd ..
+  777  ls -l
+  778  sudo chown ubuntu kaleen-bhaiya
+  779  ls -l
